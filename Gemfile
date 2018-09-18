@@ -7,6 +7,7 @@ gem 'rake'
 gem 'thin'
 gem 'shotgun'
 gem 'pry'
+gem 'activerecord' , '~> 4.2', '>= 4.2.6', :require => 'active_record'
 
 group :test do
   gem 'rspec'
